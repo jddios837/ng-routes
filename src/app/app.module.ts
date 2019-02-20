@@ -9,9 +9,9 @@ import { AppComponent } from './app.component';
 
 import { AppRoutingModule } from './app-routing.module';
 
-export const ROUTES: Routes = [
-  { path: '**', redirectTo: 'folder/inbox' }
-];
+// export const ROUTES: Routes = [
+//   { path: '**', redirectTo: 'folder/inbox' }
+// ];
 
 @NgModule({
   declarations: [
@@ -21,7 +21,8 @@ export const ROUTES: Routes = [
     BrowserModule,
     HttpClientModule,
     MailModule,
-    RouterModule.forRoot(ROUTES, { enableTracing: true })
+    AppRoutingModule
+    // RouterModule.forRoot(ROUTES, { enableTracing: true })
   ],
   bootstrap: [
     AppComponent
