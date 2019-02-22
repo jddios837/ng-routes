@@ -9,6 +9,9 @@ import { Component } from '@angular/core';
         (activate)="onActivate($event)"
         (deactivate)="onDeactivate($event)"></router-outlet>
     </div>
+    <div class="mail">
+      <router-outlet name="pane"></router-outlet>
+    </div>
   `
 })
 export class MailAppComponent {

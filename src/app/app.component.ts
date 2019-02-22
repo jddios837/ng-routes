@@ -14,13 +14,19 @@ import { filter } from 'rxjs/operators';
       </header>
       <div class="app__content">
         <nav>
-          <a
+          <!-- Para limpiar la sub ruta se debe hacer lo siguiente -->
+          <!-- <a
             routerLink="folder/inbox"
+            routerLinkActive="active">
+            Inbox
+          </a> -->
+          <a
+            [routerLink]="[{ outlets: { primary: 'folder/inbox', pane: null} }]"
             routerLinkActive="active">
             Inbox
           </a>
           <a
-            routerLink="folder/trash"
+            [routerLink]="[{ outlets: { primary: 'folder/trash', pane: null} }]"
             routerLinkActive="active">
             Trash
           </a>
