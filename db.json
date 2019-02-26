@@ -4,6 +4,7 @@
 		"id": 1,
 		"folder": "inbox",
 		"from": "Jane Smith",
+		"full": "Full message from Jane Smith",
 		"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis, neque at ultricies fringilla, ligula metus",
 		"timestamp": 1487848162905
 	  },
@@ -11,6 +12,7 @@
 		"id": 2,
 		"folder": "inbox",
 		"from": "John Doe",
+		"full": "Full message from John Doe",
 		"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis, neque at ultricies fringilla, ligula metus",
 		"timestamp": 1487845787719
 	  },
@@ -18,6 +20,7 @@
 		"id": 3,
 		"folder": "inbox",
 		"from": "Joseph Hanes",
+		"full": "Full message from Joseph Hanes",
 		"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis, neque at ultricies fringilla, ligula metus",
 		"timestamp": 1487845787719
 	  },
@@ -25,6 +28,7 @@
 		"id": 4,
 		"folder": "trash",
 		"from": "Laurence Murray",
+		"full": "Full message from Laurence Murray",
 		"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis, neque at ultricies fringilla, ligula metus",
 		"timestamp": 1487845787719
 	  }

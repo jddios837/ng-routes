@@ -23,4 +23,11 @@ export class MailService {
                   map((response: Mail[]) => response)
                 );
   }
+
+  getMessage(id: string): Observable<Mail> {
+    return this.http.get(`${SERVE_URL}/messages/${id}`)
+      .pipe(
+        map((response: Mail) => response)
+      );
+  }
 }
