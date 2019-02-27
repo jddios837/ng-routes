@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   styleUrls: ['mail-app.component.scss'],
   template: `
     <div class="mail">
+      <h1>Activated Paren!</h1>
       <router-outlet
         (activate)="onActivate($event)"
         (deactivate)="onDeactivate($event)"></router-outlet>
