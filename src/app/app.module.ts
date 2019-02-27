@@ -8,6 +8,7 @@ import { MailModule } from './mail/mail.module';
 import { AppComponent } from './app.component';
 
 import { AppRoutingModule } from './app-routing.module';
+// import { MailAppComponent } from './dashboard/containers/mail-app/mail-app.component';
 
 // export const ROUTES: Routes = [
 //   { path: '**', redirectTo: 'folder/inbox' }
@@ -15,7 +16,8 @@ import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    // MailAppComponent
   ],
   imports: [
     BrowserModule,
